@@ -1,0 +1,83 @@
+/* Button */
+@media(max-width:480px){
+    .button.mobile{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+    .button.mobile::before{
+        content: "+";
+        color:black;
+        font-size:2rem;
+        width:100%;
+        height:100%;
+    }
+}
+
+/* Header */
+@media (max-width:480px){
+    header{
+        position:fixed;
+        width:100%;
+    }
+    .header-title{
+        font-size: 1.5rem;
+    }
+
+    main{
+        padding: 0;
+        margin: 20px 0 0 0;
+        width:100%;
+        box-shadow: none;
+    }
+}
+
+/* Modal */
+@media (max-width:480px){
+    .modal{
+        top:100%;
+        transition: all 1s ease;
+    }
+    .modal.active{
+        top:0;
+    }
+    .modal-content{
+        margin:0;
+        width:100%;
+        position:fixed;
+    }
+    .modal-field{
+        width:100%;
+    }
+}
+
+/* Records */
+@media(max-width:480px){
+    .records{
+        border-spacing: 5px;
+    }
+    .records thead{
+        display:none;
+    }
+    .records tr{
+        box-shadow: 0 1px 3px var(--shadow-color);
+    }
+    .records td:not(:first-child){
+        display:flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .records td{
+        margin:10px 0;
+    }
+
+    .records tr:hover{
+        background-color: inherit;
+    }
+}
