@@ -1,6 +1,6 @@
 :root{
     --primary-color: #F05024;
-    --secundary-color: #FFF1CC;
+    --secundary-color: #ffdecc93;
     --shadow-color: #CCC;
     --text-color: #FFF;
 }
@@ -19,7 +19,7 @@ header{
     box-shadow: 0 1px 2px var(--shadow-color);
 }
 
-.titulo{
+.header-title{
     color: black;
     font-size: 2rem;
 }
